@@ -28,7 +28,7 @@
     </ul>
   </nav>
 <body>
-    <form action="indexass12.html" onclick="return (emailtest())&&(phntest())&&(passtest()&&strength())">
+    <form action="indexass12.html" onclick="return (emailtest())&&(phntest())&&(passtest()&&(strength())&&(samepass()))">
        <table class="table table-borderless">
         <tr>
           <td>first name </td>
@@ -48,16 +48,16 @@
           </tr>
           <tr>
             <td>phone number </td>
-            <td><input type="text" name="" id="phn" class="form-control"></td>
+            <td><input type="text" name="" id="phn" class="form-control"><h6 style="background-color: yellow;">(only xxxxxxxxxx or xxx xxx xxxx or xxx-xxx-xxxx or xxx.xxx.xxxx formats)</h6></td>
           </tr>
           <tr>
-            <td>password</td>
-            <td><input type="password" name="" id="crpass" class="form-control"></td>
+            <td>Create password</td>
+            <td><input type="text" name="" id="crpass" class="form-control"><h6 style="background-color: yellow;">(minimum of 8 charater atleast one digits,one capital letter,one small letter)</h6></td>
           </tr>
-        <!-- <tr>
-            <td>confirm password</td>
+        <tr>
+            <td>Confirm password</td>
             <td><input type="text" name="" id="cfpass" class="form-control"></td>
-        </tr> -->
+        </tr>
         <tr>
             <td></td>
             <td><label for="error2" id="error2" ></label></td>
